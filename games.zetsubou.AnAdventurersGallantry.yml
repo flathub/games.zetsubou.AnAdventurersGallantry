@@ -23,12 +23,12 @@ modules:
     sources:
       - type: archive
         url: https://gitlab.com/zetsubougames-builds/an-adventurers-gallantry/-/releases/v1.1.1/downloads/an-adventurers-gallantry-linux-amd64.zip
-        sha512: 02cfc3c14f43501917442cd6c731cce2c43e6457704c292b76562f3ff4d847961c57306fddec3c0e0f5d74f18d544aa918e2f5ab8e6f058aab85d989b2375ee4
+        sha512: 767e00ca1bd27513e040ffd8afbfba0a33788e4fb9a0849ac8ae668a0b5f7a56bb9feb4a654965e159035d8f22319d8d8e1bf52ac4f1945d2601ba464b9223ed
         only-arches:
           - x86_64
       - type: archive
         url: https://gitlab.com/zetsubougames-builds/an-adventurers-gallantry/-/releases/v1.1.1/downloads/an-adventurers-gallantry-linux-aarch64.zip
-        sha512: b59098da95e108717c6abbe4121a5d1c54f48cf544789b28c3c1c4eedabddf5dcadccbcce866ab6dddc09e28d4481890f86e73ad27448e96a1a86b4b97297ca9
+        sha512: 229d570f1b109e20d92bace6e8e5f53510e8e425c887c68614259e196aa24a2c1a739120e7516dc00d019484e1a2e6c38ccc4a694dcad09aec0abeaebfee444f
         only-arches:
           - aarch64
       - type: file
