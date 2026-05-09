@@ -22,13 +22,13 @@ modules:
       - install -Dm644 games.zetsubou.AnAdventurersGallantry.png "/app/share/icons/hicolor/512x512/apps/games.zetsubou.AnAdventurersGallantry.png"
     sources:
       - type: archive
-        url: https://cdn.zetsubou.games/Flatpak/AnAdventurersGallantry/builds/v1.0.0-x86_64.tar.bz2
-        sha512: 2330e076fbae8d18c6862e08101e952ba86b40409fc04cbeafbedfece4724bd6afdff86f80b982c88f135dd12bca070c07654a28e840e0e3465cac3c7a83196f
+        url: https://gitlab.com/zetsubougames-builds/an-adventurers-gallantry/-/releases/v1.1.1/downloads/an-adventurers-gallantry-linux-amd64.zip
+        sha512: 02cfc3c14f43501917442cd6c731cce2c43e6457704c292b76562f3ff4d847961c57306fddec3c0e0f5d74f18d544aa918e2f5ab8e6f058aab85d989b2375ee4
         only-arches:
           - x86_64
       - type: archive
-        url: https://cdn.zetsubou.games/Flatpak/AnAdventurersGallantry/builds/v1.0.0-aarch64.tar.bz2
-        sha512: 7dd36c4a842823e571ea87b5769965c92a63069b41dafd07413f70252debfb1c06f678005e70ff0a6331c1c3fd2bca7e838a69147d8597227297d9710310b914
+        url: https://gitlab.com/zetsubougames-builds/an-adventurers-gallantry/-/releases/v1.1.1/downloads/an-adventurers-gallantry-linux-aarch64.zip
+        sha512: b59098da95e108717c6abbe4121a5d1c54f48cf544789b28c3c1c4eedabddf5dcadccbcce866ab6dddc09e28d4481890f86e73ad27448e96a1a86b4b97297ca9
         only-arches:
           - aarch64
       - type: file
