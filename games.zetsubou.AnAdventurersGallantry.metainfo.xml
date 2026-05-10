@@ -3,7 +3,7 @@
 	<id>games.zetsubou.AnAdventurersGallantry</id>
 	<metadata_license>CC0-1.0</metadata_license>
 	<name>An Adventurer's Gallantry</name>
-	<summary>Disgraced knight-in-training Oren gets a second chance at life as an adventurer in this fantasy visual novel</summary>
+	<summary>Disgraced knight Oren gets a second chance as an adventurer in this fantasy visual novel</summary>
 	<description>
                 <p>An Adventurer's Gallantry is a visual novel set in a fantasy world of dungeons and monsters. This is a kinetic visual novel, ie. it doesn't have any choices and only has one ending.</p>
                 <p>Oren has always dreamed of becoming a knight. It's what he's trained for all his life, and he was all too happy to squander his savings and leave his home behind to make it happen.</p>
@@ -32,7 +32,9 @@
 		</release>
 	</releases>
 	<project_license>LicenseRef-proprietary</project_license>
-	<developer_name>Zetsubou Games</developer_name>
+	<developer id="games.zetsubou">
+		<name>Zetsubou Games</name>
+	</developer>
 	<screenshots>
 		<screenshot type="default">
 			<image type="source">https://cdn.zetsubou.games/Flatpak/AnAdventurersGallantry/screenshots/1.jpg</image>
