@@ -3,7 +3,7 @@
 	<id>games.zetsubou.AnAdventurersGallantry</id>
 	<metadata_license>CC0-1.0</metadata_license>
 	<name>An Adventurer's Gallantry</name>
-	<summary>Disgraced knight-in-training Oren gets a second chance at life as an adventurer in this fantasy visual novel</summary>
+	<summary>Disgraced knight Oren gets a second chance as an adventurer in this fantasy visual novel</summary>
 	<description>
                 <p>An Adventurer's Gallantry is a visual novel set in a fantasy world of dungeons and monsters. This is a kinetic visual novel, ie. it doesn't have any choices and only has one ending.</p>
                 <p>Oren has always dreamed of becoming a knight. It's what he's trained for all his life, and he was all too happy to squander his savings and leave his home behind to make it happen.</p>
@@ -17,9 +17,14 @@
 	</categories>
 	<url type="homepage">https://zetsubou.games</url>
 	<url type="bugtracker">https://github.com/koroshiya/aag-flatpak/issues</url>
-	<url type="contact">https://twitter.com/ZetsubouGames</url>
+	<url type="contact">https://zetsubou.games/links/</url>
 	<launchable type="desktop-id">games.zetsubou.AnAdventurersGallantry.desktop</launchable>
 	<releases>
+		<release version="1.1.1" date="2026-05-09">
+                        <description>
+                                <p>Version 1.1.1 updates the game engine and flatpak runtime versions</p>
+                        </description>
+                </release>
 		<release version="1.0.0" date="2023-04-07">
 			<description>
 				<p>Version 1.0.0 is the initial flatpak build</p>
@@ -27,7 +32,9 @@
 		</release>
 	</releases>
 	<project_license>LicenseRef-proprietary</project_license>
-	<developer_name>Zetsubou Games</developer_name>
+	<developer id="games.zetsubou">
+		<name>Zetsubou Games</name>
+	</developer>
 	<screenshots>
 		<screenshot type="default">
 			<image type="source">https://cdn.zetsubou.games/Flatpak/AnAdventurersGallantry/screenshots/1.jpg</image>
@@ -53,4 +60,13 @@
 		<color type="primary" scheme_preference="light">#cdab8f</color>
 		<color type="primary" scheme_preference="dark">#3d3846</color>
 	</branding>
+	<supports>
+		<control>keyboard</control>
+		<control>pointing</control>
+		<control>touch</control>
+		<control>gamepad</control>
+	</supports>
+	<requires>
+		<display_length compare="ge">768</display_length>
+	</requires>
 </component>
